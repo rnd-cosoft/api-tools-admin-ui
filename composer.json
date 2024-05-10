@@ -34,6 +34,9 @@
     "require-dev": {
         "laminas/laminas-console": "^2.6"
     },
+    "replace": {
+        "laminas-api-tools/api-tools-admin-ui": "*"
+    },
     "suggest": {
         "laminas-api-tools/api-tools-asset-manager": "^1.0, to expose assets under the document root, until rwoverdijk/assetmanager 1.7 is released",
         "rwoverdijk/assetmanager": "^1.7, to expose assets under the document root (may not yet be released)"
